@@ -1,0 +1,22 @@
+body {
+    background-color: #708d81;
+    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+    color: #000000;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+.post {
+    border: 2px solid black;
+    text-align: left;
+}

@@ -1,0 +1,60 @@
+html {
+    box-sizing:border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #708d81;
+    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+    color: #001427;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.logo {
+    width: 85px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #8d0801;
+}
+
+a {
+    display: block;
+    border: 3px solid #001427;
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #001427;
+    max-width: 400px;
+    margin: 0 auto 5px auto;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f4d58d;
+    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+    text-decoration: underline;
+}
+
+element {
+    transition: all 200ms ease-in-out;
+}
+
+.socials {
+    padding: 5px 10px;
+    margin: 0 auto 5px auto;
+}
+
+.twitter {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto 10px auto;
+}

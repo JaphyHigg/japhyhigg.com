@@ -16,7 +16,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-
 .logo {
     width: 85px;
 }
@@ -41,7 +40,6 @@ a {
 a:hover {
     background-color: #f4d58d;
     background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
-    text-decoration: underline;
 }
 
 element {
@@ -57,4 +55,49 @@ element {
     display: flex;
     max-width: 400px;
     margin: 0 auto 10px auto;
+}
+
+article.dropdown-title {
+    display: block;
+    border: 3px solid #001427;
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #001427;
+    max-width: 400px;
+    margin: 0 auto 5px auto;
+    text-decoration: none;
+}
+
+i::before {
+    background:transparent;
+}
+
+button {
+    font-size: 20px;
+    background:transparent;
+    border: none;
+}
+
+.dropdown-title:hover {
+    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+}
+
+.dropdown-options {
+    display: none;
+}
+
+.show-dropdown .dropdown-options {
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-dropdown .minus-icon {
+    display: inline;
+}
+
+.show-dropdown .plus-icon {
+    display: none;
 }

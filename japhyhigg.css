@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: #708d81;
-    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+    background-image: linear-gradient(to bottom right, #708d81 2%, #f4d58d 100%);
     color: #001427;
     min-height: 100vh;
     text-align: center;
@@ -38,8 +38,7 @@ a {
 }
 
 a:hover {
-    background-color: #f4d58d;
-    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+   background-image: linear-gradient(to bottom right, #708d81 2%, #f4d58d 100%);
 }
 
 element {
@@ -79,11 +78,15 @@ button {
 }
 
 .dropdown-title:hover {
-    background-image: linear-gradient(#708d81 2%, #f4d58d 100%);
+    background-image: linear-gradient(to bottom right, #708d81 2%, #f4d58d 100%);
 }
 
 .dropdown-options {
     display: none;
+}
+
+.dropdown-options a:hover {
+    text-decoration: underline;
 }
 
 .show-dropdown .dropdown-options {

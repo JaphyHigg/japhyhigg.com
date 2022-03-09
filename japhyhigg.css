@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #014f9d 2%, #3cd2f8 100%);
-    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #014f9d 10%, #1cc7f1 100%);
+    color: #000000;
     min-height: 100vh;
     text-align: center;
     font-family: 'Titillium Web', sans-serif;

@@ -1,0 +1,160 @@
+body {
+    background-color: #909BCA;
+    text-align: center;
+    margin: 0px;
+    font-family: helvetica;
+    color: #223843;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    color: #F26419;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a:hover {
+    color: #E6E4CE;
+}
+
+.container-fluid {
+    overflow: visible;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col, .col-md-12, .col-lg-4 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.title-row {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-bar {
+    font-size: 2rem;
+    text-align: center;
+    top: 0;
+    max-height: 100vh;
+    display: inline-block;
+    margin-top: -40px;
+    padding-top: -40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-row {
+    position: sticky;
+    top: 0;
+    background-color: #909BCA;
+    z-index: 1000;
+}
+
+#myname {
+    margin-top: -10px;
+    padding-top: -10px;
+    display: block;
+}
+
+#links {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 35px;
+}
+
+#lib_description {
+    font-size: 0.75rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#table_div {
+    overflow: auto;
+    height: 580px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#b_table td, #b_table th {
+    font-size: 12px;
+    background-color: #E6E4CE;
+    min-width: 100%;
+    border: 1px solid black;
+}
+
+.sorting {
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.filters {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    margin-top: 10px;
+
+    position: sticky;
+    top: 0;
+    background-color: #909BCA;
+    z-index: 1000;
+    padding-top: -15px;
+
+}
+
+.fnf_hidden, .year_hidden, .rating_hidden, .search_hidden {
+    display: none;
+}
+
+#index {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: #F26419;
+    border: none;
+}
+
+html body .btn.btn-primary:hover {
+    background-color: #223843;
+
+}
+
+.card-body {
+    background-color: #E6E4CE;
+}
+
+.card {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+
+.print-art {
+    gap: 0px;
+}

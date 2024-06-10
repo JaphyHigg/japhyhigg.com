@@ -1,0 +1,105 @@
+html {
+    box-sizing:border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #014f9d 10%, #1cc7f1 100%);
+    color: #000000;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+    width: 85px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #f7cf73;
+}
+
+a {
+    display: block;
+    border: 3px solid #4d4d4d;
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto 5px auto;
+    text-decoration: none;
+}
+
+a:hover {
+   background-image: linear-gradient(to bottom right, #014f9d 2%, #f7cf73 100%);
+}
+
+element {
+    transition: all 200ms ease-in-out;
+}
+
+.socials {
+    padding: 5px 10px;
+    margin: 0 auto 5px auto;
+}
+
+.twitter {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto 10px auto;
+}
+
+article.dropdown-title {
+    display: block;
+    border: 3px solid #4d4d4d;
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto 5px auto;
+    text-decoration: none;
+}
+
+i::before {
+    background:transparent;
+}
+
+button {
+    font-size: 20px;
+    background:transparent;
+    border: none;
+}
+
+.dropdown-title:hover {
+    background-image: linear-gradient(to bottom right, #014f9d 2%, #f7cf73 100%);
+}
+
+.dropdown-options {
+    display: none;
+}
+
+.dropdown-options a:hover {
+    text-decoration: underline;
+}
+
+.show-dropdown .dropdown-options {
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-dropdown .minus-icon {
+    display: inline;
+}
+
+.show-dropdown .plus-icon {
+    display: none;
+}

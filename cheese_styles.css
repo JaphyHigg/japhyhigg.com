@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    background-color: #d3d0ca;
+}
+
+h1 {
+    margin: 5px;
+}
+
+#cheese-container {
+    display: flex;
+    gap: 20px;
+    max-width: 375px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#cheese-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#answersDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 375px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+
+#answersDiv button {
+    width: 80%;
+    max-width: 375px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#contButton {
+    height: 50px;
+    width: 375px;
+    line-height: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #f78a3a;
+}
+
+.wrongGuess {
+    color: red;
+    font-size: 30px;
+}
+
+#infoPara {
+    border: 1px, black, solid;
+    width: 375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
